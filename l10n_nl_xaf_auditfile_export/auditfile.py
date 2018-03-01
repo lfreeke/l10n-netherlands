@@ -318,8 +318,9 @@ def patch_country_code(country_code):
 
     JE - Jersey
     ME - Montenegro
+    CW - Curacao
     """
-    if country_code in ['JE', 'ME']:
+    if country_code in ['JE', 'ME', 'CW']:
         return 'NL'
     return country_code
 
